@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\Users\mewong\Documents\GitHub\HEXITEC -FIFO EXAMPLE\CY_FIFO_EXAMPLE\CY_FIFO_EXAMPLE\src\TestBench\fx2lp_slavefifo2b_loopback_fpga_top_TB.vhd" 
+MESSAGE "Compile Entity "fx2lp_slavefifo2b_loopback_fpga_top_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "fx2lp_slavefifo2b_loopback_fpga_top_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_fx2lp_slavefifo2b_loopback_fpga_top"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

@@ -1,0 +1,12 @@
+[Version]
+Version=9.2
+[Designs]
+cy_fifo_example=.\CY_FIFO_EXAMPLE\CY_FIFO_EXAMPLE.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+cy_fifo_example=1

@@ -1,0 +1,6 @@
+.\src\Basic_Components.vhd
+.\src\FPGA_CLK.vhd
+.\src\AN_FIFO_512x16.vhd
+.\src\fx2lp_slaveFIFO2b_loopback_fpga_top.vhd
+.\src\TestBench\an_fifo_512x16_TB.vhd
+.\src\TestBench\fx2lp_slavefifo2b_loopback_fpga_top_TB.vhd

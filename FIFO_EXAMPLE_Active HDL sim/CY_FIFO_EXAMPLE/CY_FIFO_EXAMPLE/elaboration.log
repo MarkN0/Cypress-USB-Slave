@@ -1,0 +1,54 @@
+Active-HDL 9.2.2499.sp1.36.4586  2014-05-14 16:26:21
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_fx2lp_slavefifo2b_loopback_fpga_top
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Entity                                 | Architecture                             | Library         | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fx2lp_slavefifo2b_loopback_fpga_top_tb | tb_architecture                          | cy_fifo_example |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+fx2lp_slaveFIFO2b_loopback_fpga_top    | fx2lp_slavefifo2b_loopback_fpga_top_arch | cy_fifo_example |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+FPGA_CLK                               | def_arch                                 | cy_fifo_example |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+AN_FIFO_512x16                         | def_arch                                 | cy_fifo_example |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+pll                                    | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+gnd                                    | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+vcc                                    | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+pllprim                                | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+or2                                    | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+nand2a                                 | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+nand2                                  | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+inv                                    | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+and2                                   | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+fifo4k18                               | vital_act                                | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Configuration                                                                | Library         | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testbench_for_fx2lp_slavefifo2b_loopback_fpga_top                                 | cy_fifo_example |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                                                      | Library         | Info | Compiler Version                | Compilation Options
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+standard                                                                          | std             |      |                                 | <unavailable>
+TEXTIO                                                                            | std             |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+std_logic_1164                                                                    | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+std_logic_arith                                                                   | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) | 
+NUMERIC_STD                                                                       | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+VITAL_Timing                                                                      | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) | 
+VITAL_Primitives                                                                  | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) | 
+COMPONENTS                                                                        | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+VTABLES                                                                           | proasic3l       |      | 9.2.2499.sp1.36.4586  (Windows) | -vendor MICROSEMI
+STD_LOGIC_UNSIGNED                                                                | ieee            |      | 9.2.2499.sp1.36.4586  (Windows) | 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Library                                                                           | Comment
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cy_fifo_example                                                                   | None
+ieee                                                                              | Standard IEEE packages library
+proasic3l                                                                         | MICROSEMI LIBERO SOC 11.1, PROASIC3L VHDL LIBRARY
+std                                                                               | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

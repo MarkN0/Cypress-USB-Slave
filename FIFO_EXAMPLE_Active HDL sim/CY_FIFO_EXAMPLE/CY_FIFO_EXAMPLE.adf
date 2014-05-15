@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=CY_FIFO_EXAMPLE
+
+[Library]
+CY_FIFO_EXAMPLE=.\CY_FIFO_EXAMPLE\CY_FIFO_EXAMPLE.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Microsemi ProASIC3E
+fileopenfolder=C:\Users\mewong\Documents\GitHub\HEXITEC -FIFO EXAMPLE\FIFO_EXAMPLE\smartgen\FPGA_CLK
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+CY_FIFO_EXAMPLE=.
+Active_lib=
+xilinxun=
+UnlinkedDesignLibrary=
+DESIGNS=
+
+[Files]
+/Basic_Components.vhd=-1
+/FPGA_CLK.vhd=-1
+/AN_FIFO_512x16.vhd=-1
+/fx2lp_slaveFIFO2b_loopback_fpga_top.vhd=-1
+TestBench/an_fifo_512x16_TB.vhd=-1
+TestBench/an_fifo_512x16_TB_runtest.do=-1
+TestBench/fx2lp_slavefifo2b_loopback_fpga_top_TB.vhd=-1
+TestBench/fx2lp_slavefifo2b_loopback_fpga_top_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Basic_Components.vhd=VHDL Source Code
+.\src\FPGA_CLK.vhd=VHDL Source Code
+.\src\AN_FIFO_512x16.vhd=VHDL Source Code
+.\src\fx2lp_slaveFIFO2b_loopback_fpga_top.vhd=VHDL Source Code
+.\src\TestBench\an_fifo_512x16_TB.vhd=VHDL Test Bench
+.\src\TestBench\an_fifo_512x16_TB_runtest.do=Macro
+.\src\TestBench\fx2lp_slavefifo2b_loopback_fpga_top_TB.vhd=VHDL Test Bench
+.\src\TestBench\fx2lp_slavefifo2b_loopback_fpga_top_TB_runtest.do=Macro
+
+[Groups]
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=fx2lp_slavefifo2b_loopback_fpga_top_tb|testbench_for_fx2lp_slavefifo2b_loopback_fpga_top|1 
+ShowHide=ShowTopLevel
+Selected=
+
